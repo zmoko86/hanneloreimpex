@@ -1,9 +1,9 @@
-export default function Contact() {
+import Layout from "../components/Layout";
+
+export default function ContactPage() {
   return (
-    <div style={{padding: 40, fontFamily: 'Arial'}}>
-      <h1>Contact</h1>
-      <p>Email: noricutza@hotmail.com</p>
-      <p>Telefon: 0725 855 989</p>
-    </div>
+    <Layout title="Contact">
+      <p>Conținut pentru pagina Contact va fi adăugat aici.</p>
+    </Layout>
   );
 }
